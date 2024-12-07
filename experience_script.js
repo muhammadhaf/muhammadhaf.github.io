@@ -26,14 +26,14 @@ window.onload = function() {
 
             var main_div = "<div id='job" + counter  + "' onclick='display_points(" + counter + ")'>";
             var job1_div = "<div style='margin-left: 40px;margin-right:40px;margin-bottom:0;'>";
-            job1_div += "<h5 style='text-align:left;width:45%;display:inline-block;margin-bottom:0;'>" + job_title + "</h5>";
-            job1_div += "<h5 style='text-align:right;width:45%;display:inline-block;margin-bottom:0;'>" + job_duration + "</h5>";
+            job1_div += "<h5 style='text-align:left;width:45%;display:inline-block;margin-bottom:0;font-size:medium;'>" + job_title + "</h5>";
+            job1_div += "<h5 style='text-align:right;width:45%;display:inline-block;margin-bottom:0;font-size:smallest;'>" + job_duration + "</h5>";
             job1_div += "</div>";
             main_div += job1_div;
 
             var job2_div = "<div style='margin-left: 40px;margin-right:40px;margin-top:0;'>";
-            job2_div += "<h5 style='text-align:left;width:45%;display:inline-block;margin-top:0;'>" + job_company + "</h5>";
-            job2_div += "<h5 style='text-align:right;width:45%;display:inline-block;margin-top:0;'>" + job_location + "</h5>";
+            job2_div += "<h5 style='text-align:left;width:45%;display:inline-block;margin-top:0;font-size:smallest;'>" + job_company + "</h5>";
+            job2_div += "<h5 style='text-align:right;width:45%;display:inline-block;margin-top:0;font-size:smallest;'>" + job_location + "</h5>";
             var down_div = "<i id='arrow" + counter + "' style='text-align:right;width:10%;display:inline-block'>&#x25BC;</i>";
             job2_div += down_div;
             job2_div += "</div>";

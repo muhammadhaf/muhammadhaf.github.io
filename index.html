@@ -1,47 +1,79 @@
-<html>
-    <head>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="style.css" type="text/css"> 
-    </head>
-    
-    <body>
-        <div class="navbar">
-            <nav class="nav-links">
-                <a href="./index.html">Home</a>
-                <a href="./experience.html">Work Experience</a>
-                <a href="./quals.html">Qualifications</a>
-                <a href="./education-certification.html">Education and Certification</a>
-                <a href="./achievements.html">Achievements</a>
-            </nav>
-        </div>
-        <div class="main_div">
-            <div class="inside_main" id="home_div">
-                <h1>Welcome to my portfolio</h1>
-                <img src="./info_files/Profile Pic.png" height="200px" width="200px">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Muhammad Hafeez</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <nav class="nav-links">
+            <a style='color:cadetblue' href="./index.html">Home</a>
+            <a href="./experience.html">Work Experience</a>
+            <a href="./quals.html">Qualifications</a>
+            <a href="./education-certification.html">Education and Certification</a>
+            <a href="./achievements.html">Achievements</a>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-container">
+        <div class="profile-section" id="home_div">
+            <h1>Welcome to my portfolio</h1>
+            <div>
+                <img src="./info_files/Profile Pic.png" alt="Profile Picture" class="profile-img">
                 <h3>Muhammad Hafeez</h3>
-                <table id="home_table">
-                    <tr><td><u>Contact Information:</u></td></tr>
-                    <tr><td><p>Home Phone: 905-614-0171</p></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td><p>Cell Phone: 905-781-5765</p></td></tr>
-                    <tr><td><p>Email: muhammadhafeez@live.com</p></td></tr>
-                    <tr></tr>
-                    <tr><td><p>Brampton, ON</p></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td><p><a href="https://ca.linkedin.com/in/muhammadhafeez">LinkedIn</a></p></td></tr>
-                    <tr></tr>
-                    <tr><td><u>Experience Chart:</u></td></tr>
-                    <tr><td><img src="./info_files/Experience Chart.png" height="90px" width="220px"></td></tr>
-                    <tr></tr>
-                    <tr></tr>
-                    <tr><td><p><u>Currently looking for a full time position as a(n):</u></p>
-                        <ul>
-                            <li>ETL Developer</li>
-                            <li>Database Developer</li>
-                            <li>Software Developer</li>
-                            <li>PL/SQL Developer</li>
-                        </ul>
-                    </td></tr>
+                <h4><td><p><a href="https://ca.linkedin.com/in/muhammadhafeez">LinkedIn</a></p></td></h4>
+                <table class="contact-table">
+                    <tr><td><table class="contact-table">
+                        <tr>
+                            <td><u>Contact Information:</u></td>
+                        </tr> 
+                        <tr>
+                            <td><p>Home Phone: 905-614-0171</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>Cell Phone: 905-781-5765</p></td>
+                            
+                        </tr>
+                        <tr>
+                            <td><p>Brampton, ON</p></td>
+                        </tr>
+                        <tr>
+                            <td><p>Email: muhammadhafeez@live.com</p></td>
+                        </tr>
+                        <tr>
+                            <td><u>Currently looking for a full-time position as a(n):</u></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>ETL Developer</li>
+                                    <li>Database Developer</li>
+                                    <li>Software Developer</li>
+                                    <li>PL/SQL Developer</li>
+                                    <li>Form Developer</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                    </td>
+                    <td>
+                    <table class="contact-table">
+                        <tr><td><u style="margin-left:65px;font-size: large;">Experience Chart:</u></td></tr>
+                        <tr><td><img src="./info_files/Experience Chart.png" alt="Experience Chart" class="experience-img"></td></tr>
+                    </table>
+                    </td>
+                </tr>
                 </table>
             </div>
         </div>
-        
-    </body>
+    </div>
+</body>
 
 </html>

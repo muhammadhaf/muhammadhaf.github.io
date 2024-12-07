@@ -22,15 +22,18 @@ window.onload = function() {
             var l = document.createElement("li");
             ul.appendChild(l);
             l.innerText = element;
+            l.classList.add("main_li");
             if (element.includes("Technical Skills: ")) {
                 tech_skills.forEach(element2 => {
                     var ul3 = document.createElement("ul");
                     var l2 = document.createElement("li");
                     l2.innerText = element2[0];
+                    l2.classList.add("inner_li1");
                     ul2.appendChild(l2);
                     ul2.appendChild(ul3);
                     var l3 = document.createElement("li");
                     l3.innerText = element2[1];
+                    l3.classList.add("inner_li2");
                     ul3.appendChild(l3);
                     ul.appendChild(ul2);
                 });
