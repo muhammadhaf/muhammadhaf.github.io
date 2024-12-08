@@ -1,5 +1,10 @@
 {
     "Successful development and Implementation of various systems. Some of which include:": [
+        "PDF Parsers - Built a series of PL/SQL packages that allow the import and processing of various client PDFs. The PDFs contained Bill and purchasing information that was parsed, validated and loaded into the ERP system for processing. Built the user interface in Oracle Forms to allow the end users to upload their files and select which PDF template should be used for processing.",
+        "Provincial/State & Federal Web Files - Worked with a team of payroll specialists to gather requirements for filing state taxes. A broad spectrum of files were generated, included but not limited to: DE9C, DE9, 1099, T4 XML, W2 (federal & state), MMREF, ICESA. Created the front end interfaces in Oracle Forms to allow the user to specify export parameters and generate files. ",
+        "Active JS - Designed and Implemented Active JS reports for the ERP system. I created a NODE service to gather data into a JSON format from an Oracle backend. Used REACT with the Active JS libraries to create robust reports for different aspects of the ERP system. ",
+        "Error Handling - Reworked Error handling across the entire ERP system. Created front end Oracle Forms templates for error catching. Designed and implemented oracle types and table functions to capture various Oracle errors and user defined errors. This project required me to refractor the entire database, to update and implement error handling with the new standard. ",
+        "ERP Reporting - Worked with a team of ERP specialists to design and implement various reports. Used Oracle Reports developer to create, compile and deploy to a Linux environment. For most of the reports, layouts and designs were made from scratch and verified by the client services team. Reports created in this way include but are not limited to: AP bill listings, AP summaries, AR summary, Invoice listings, GL transaction details, WIP reporting, etc. I also optimized existing reports by implementing indexes, optimizing joins, reducing query overhead, etc.  ",
         "Exchange and other capital markets reports.",
         "General Ledger and Sales.",
         "Medicine Sales and Inventory Control System.",
@@ -9,11 +14,18 @@
         "Doctors’ Information System CDs: Create Doctors information CDs for MEDI",
         "PUBLISHER, Encrypt text data and use Stream object Methods and manipulate Data for user view."],
     "Oracle Task:": [
+        "Upgrading the Oracle Database 12C.",
+        "Upgrading the Oracle Database 11g.",
         "Upgrading the Oracle Database 10g Rel.2.",
         "Upgrading the Oracle Database 10g Rel.1.",
         "Upgrading the Oracle Database Rel. 9.2.0.1.0.",
         "Implementing Database role level security for In-house Applications.",
         "Configuring Advance Multi Master Replication using Oracle Replication Manger."],
     "Other Achievements:": ["Successfully analyzed, designed, coded, tested and implemented of various functional areas of the systems using Oracle development tools",
-        "Successfully Implemented MIS System which is government based single windows solution running on the distributed environment with more then 500 end-user and located in different location with replicated data."]
-}
+        "Successfully Implemented MIS System which is government based single windows solution running on the distributed environment with more then 500 end-user and located in different location with replicated data.",
+        "Working on Zoho CRM, to connect local database and create multiple clients specific dashboard."],
+    "Java:":["Java Bean (PJC) for Oracle forms to view and notes PDF document. This bean used third party library to display and add notes on the PDF document. (Bills Invoice etc.)"],
+    "Customer Support and Bug Fixed:":["Troubleshoot and fix ongoing bugs in Oracle Database, Forms, and Reports for multiple clients.",
+                                       "Develop custom reports and Excel exports tailored to clients' specific requirements, ensuring accuracy and efficiency."],
+    "Training:":[" Onboard new employees, teaching them schema layouts, optimization tactics, coding standards and standard operating procedures (such as using JIRA to track tickets, using GITORA to submit database changes, and using SourceTree, VsCode  to manage file changes). I also walked new hires through the user stories that drove screen design and report layout.  "]
+ }
